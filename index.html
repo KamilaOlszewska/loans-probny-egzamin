@@ -7,12 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Loans</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="background">
     <header class="header">
         <div class="container">
         <div class="logo">
@@ -20,20 +22,62 @@
         </div>
         <nav class="menu">
             <ul>
-                <li>Rates & Fees</li>
-                <li>How to apply</li>
-                <li>Questions?</li>
+                <li><a href="/">Rates & Fees</a></li>
+                <li><a href="/">How to apply</a></li>
+                <li><a href="/">Questions?</a></li>
             </ul>
         </nav>
         </div>
     </header>
 
     <main class="main">
-    <div class="conteiner">
+    <div class="container">
 
-        <div class="intro__info"></div>
-        <div class="intro__form"></div>
+
+
+        <div class="intro__info">
+            <h3>Personal Loan</h3>
+            <h1>Put your plans into actions.</h1>
+            <div class="info__features">
+                <div class="feature">
+                    <p class="icon-description icon1">Online application</p>
+                </div>
+                <div class="feature">
+
+                    <p class="icon-description icon2">Up to $50.00</p>
+                </div>
+                <div class="feature feature3">
+
+                    <p class="icon-description icon3">The money is yours in 48h</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="intro__form">
+        <h2>Let's change your life?</h2>
+        <div class="form-data">
+            <label class="label" for="name">Full name</label>
+            <input class="input" id="name" type="text" value="John Doe">
+        </div>
+            <div class="form-data">
+                <label class="label" for="email">E-mail</label>
+                <input class="input" id="email" type="email" value="john.doe@apple.com">
+            </div>
+            <div class="form-data">
+                <label class="label" for="amount">How much do you need?</label>
+                <input class="input" id="amount" type="number" value="1.000">
+            </div>
+            <div class="form--button">
+                <a href="/" class="form--btn">Check your rates</a>
+            </div>
+
+
+        </div>
+
+
     </div>
     </main>
+</div>
 </body>
 </html>
